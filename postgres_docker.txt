@@ -1,0 +1,2 @@
+docker run --name rk-postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d 
+    -v D:\2022\rkumar-bengaluru\sqlbyexample\pg:/var/lib/postgresql/data postgres
