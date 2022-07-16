@@ -58,3 +58,5 @@ select ua.id, ua.first_name,ua.last_name,cu.id,cu.customer_name
 		where cu.id=c.customer_id and ua.id = c.user_account_id
 		group by  ua.id, cu.id
 		having count(*) > 1;
+
+595120
